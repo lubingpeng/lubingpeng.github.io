@@ -1,58 +1,60 @@
-/* in case I didn't tell you yet - use this whenever you do anything */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* 
-
-This task doesn't require setting any widths and heights so don't. 
-You will never need any pixel values other than 10px.
-Well, all the exceptions to this are already written just below (width:960px and 100px)
-
-Your job is to set some margins, paddings and floats (spoiler: and then you get in trouble :) )
-
-Oh, and you don't need any more selectors here, but you can add some if you want.
-
-DO:
-1. change the text color after you look at the HTML and the image you're reproducing
-2. uncomment the borders 
-3. do what you need to fit the outlines
-4. get in trouble with footer and solve the problem
-
-*/
-
-body{
-	/* change this to some color to see the text. ever heard of RGBA? */
-	color: white;
+body {
+    font-family: sans-serif;
+     background: transparent url("https://images.unsplash.com/photo-1452827073306-6e6e661baf57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c28fd5ea58ed2262a83557fea10a6e87") no-repeat center;
+    font-size: 12px;
+    font-stretch: condensed
+    
 }
 
-div.wrapper {
-	width: 960px;
-	border: 2px dotted yellow;
-    margin:auto;
-    padding: 10px;
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    color: black;
+    
 }
 
-
-div.content {
-    padding: :10px;
-   margin-left: 100px;
+.menu {
+    width: 200px;
+    float: left;
+    margin-top: 150px;
 }
 
-div.sidebar {
-	width: 100px;
-	border: 2px dotted yellow;
-    margin: 10px;
-    float:left;
-  
+.menu>ul {
+    padding: 0;
+}
+
+.menu>ul>li {
+    list-style-type: none;
+}
+
+.menu>ul>li>a {
+    display: block;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    color: black;
+    font-size:20px;
 }
 
 
-
-
-header, footer {
-	border: 2px dotted yellow;
-    padding: 10px;
-    clear:both;
-    margin: 5px;
-
+.content {
+    padding: 200px;
+    margin-left: 200px;
+    font-size:15px;
+    border: 2px solid black;
 }
 
+
+.tesla {
+    background: transparent url("https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1b5934b990c027763ff67c4115b6f32c") no-repeat center;
+    height: 500px;
+    background-size: contain;
+}
+
+.photo {
+    background: transparent url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=47756f965e991bf72aa756b410929b04") no-repeat center;
+    height: 500px;
+    background-size: contain;
+}
