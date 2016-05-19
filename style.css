@@ -1,44 +1,40 @@
-/* in case I didn't tell you yet - use this whenever you do anything */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* 
-
-This task should help you check what you remember from the course.
-
-In this task you just have to recreate what you see in the picture.
-Some rules:
-1. You can (and should) modify the HTML file, but 
-   you are only allowed to add on div tag and some classes. 
-2. The whole thing is 960px wide. That's how it has to be ;)
-3. All the spacing has to stay the same
-4. It obviously has to be in the center on any size of the screen
-
-*/
-
 body {
-	color: red;
-        }
-.wrapper>*{
-    border: 1px dashed yellow;
-    
+    font-family: sans-serif;
+    background: white;
+    font-size: 12px;
 }
 
-div.wrapper{
+.wrapper {
     width: 960px;
-    margin:0 auto;
-    
-   
-    }
-.wrapper>div{
-    width: 300px;
-    float: left;
-  margin-top: 30px;
-    border-radius: 50%;
-}
-.middle{
-    margin: 30px;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
 }
 
-footer{
-    clear: both;
+
+div.comtent {
+    width: 960px;
+    margin: auto;
+    
 }
+
+img{
+    display: block;
+    margin:auto;
+    padding:30px;
+}
+
+.items li{
+    display: inline;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 200px;
+    text-align: center;
+}
+
+
+section div{
+    float:left;
+    margin:auto;
+}
+
