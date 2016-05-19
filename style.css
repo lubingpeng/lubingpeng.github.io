@@ -1,60 +1,44 @@
+/* in case I didn't tell you yet - use this whenever you do anything */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* 
+
+This task should help you check what you remember from the course.
+
+In this task you just have to recreate what you see in the picture.
+Some rules:
+1. You can (and should) modify the HTML file, but 
+   you are only allowed to add on div tag and some classes. 
+2. The whole thing is 960px wide. That's how it has to be ;)
+3. All the spacing has to stay the same
+4. It obviously has to be in the center on any size of the screen
+
+*/
+
 body {
-    font-family: sans-serif;
-     background: transparent url("https://images.unsplash.com/photo-1452827073306-6e6e661baf57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c28fd5ea58ed2262a83557fea10a6e87") no-repeat center;
-    font-size: 12px;
-    font-stretch: condensed
+	color: red;
+        }
+.wrapper>*{
+    border: 1px dashed yellow;
     
 }
 
-.wrapper {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
-    color: black;
+div.wrapper{
+    width: 960px;
+    margin:0 auto;
     
-}
-
-.menu {
-    width: 200px;
+   
+    }
+.wrapper>div{
+    width: 300px;
     float: left;
-    margin-top: 150px;
+  margin-top: 30px;
+    border-radius: 50%;
 }
-
-.menu>ul {
-    padding: 0;
-}
-
-.menu>ul>li {
-    list-style-type: none;
-}
-
-.menu>ul>li>a {
-    display: block;
-    border: 1px solid black;
-    padding: 30px;
+.middle{
     margin: 30px;
-    text-align: center;
-    color: black;
-    font-size:20px;
 }
 
-
-.content {
-    padding: 200px;
-    margin-left: 200px;
-    font-size:15px;
-    border: 2px solid black;
-}
-
-
-.tesla {
-    background: transparent url("https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1b5934b990c027763ff67c4115b6f32c") no-repeat center;
-    height: 500px;
-    background-size: contain;
-}
-
-.photo {
-    background: transparent url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=47756f965e991bf72aa756b410929b04") no-repeat center;
-    height: 500px;
-    background-size: contain;
+footer{
+    clear: both;
 }
