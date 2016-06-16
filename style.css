@@ -5,6 +5,7 @@ body {
     font-stretch: condensed;
     margin: 0;
     
+    
 }
 
 a{
@@ -19,8 +20,8 @@ a:hover {
 a:visited{}
 
 .wrapper {
-    width: 101%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     overflow: auto;
     background: 243 243 243;
     
@@ -28,11 +29,15 @@ a:visited{}
 
 .lubing{background-image: url("lubing1.jpg");
            height: 650px;
-           width: 101%;
+           width: 100%;
            background-size:cover;
+           text-align: center;
+           color: white;
+           font-size: 120px;
+        text-transform: uppercase;
+    margin-top:0;
+        }
 
-
-}
 .menu{
     text-align: center;
 }
@@ -52,14 +57,25 @@ a:visited{}
     margin-left:20px;
 }
 
+.content{
+    width: 100%;
+    text-align: center;
+
+}
 
 .photo-box{
-    height: 300px;
-    width: 300px;
+    height: 365px;
+    width: 365px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 40px;;
     float: left;
-  display:inline-block;
+    opacity: 0.6;
+    filter: alpha(opacity=50); 
+}
+
+.photo-box:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
 
 
@@ -67,6 +83,8 @@ a:visited{}
     background: transparent url("https://images.unsplash.com/photo-1460378150801-e2c95cb65a50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1b5934b990c027763ff67c4115b6f32c") no-repeat center;
     background-size:cover;
 }
+
+
 
 .photo2 {
     background: transparent url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=47756f965e991bf72aa756b410929b04") no-repeat center;
