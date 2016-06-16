@@ -5,8 +5,7 @@ body {
     font-stretch: condensed;
     margin: 0;
     
-    
-}
+    }
 
 a{
     color: black;
@@ -26,8 +25,7 @@ a:visited{}
     background: 243 243 243;
     
 }
-
-.lubing{background-image: url("lubing1.jpg");
+.head  {
            height: 650px;
            width: 100%;
            background-size:cover;
@@ -38,6 +36,24 @@ a:visited{}
     margin-top:0;
         }
 
+.lubing   {background-image: url("lubing1.jpg");
+           
+        }
+
+.lubingblog {background-image: url("lubingblog.jpg");
+          
+        }
+
+.lubingwork {background-image: url("_MG_8916.JPG");
+          
+        }
+.lubingcontact{
+    background-image: url("_MG_7882.jpg");
+}
+
+.lubingproduct {background-image: url("_MG_7857.jpg");
+          
+        }
 .menu{
     text-align: center;
 }
@@ -104,10 +120,110 @@ a:visited{}
 .photo5 {
     background: transparent url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c2447a69043e39f174216c5440f0fb2d") no-repeat center;
     background-size:cover;
+    }
+
+.photo6 {
+    background: transparent url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=38b4c37a4aedb70e2817b4f38b9a1984") no-repeat center;
+  background-size:cover;
+}
+
+.photo7 {
+    background: transparent url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=38b4c37a4aedb70e2817b4f38b9a1984") no-repeat center;
+  background-size:cover;
+}
+.photo8 {
+    background: transparent url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=38b4c37a4aedb70e2817b4f38b9a1984") no-repeat center;
+  background-size:cover;
+}
+
+.photo9 {
+    background: transparent url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=38b4c37a4aedb70e2817b4f38b9a1984") no-repeat center;
+  background-size:cover;
+}
+
+
+
+.text a{
+    color: black;
+    text-decoration: none;
+    padding: 0 0 100px 0;
+    font-family: 'brownregular','proxima-nova',sans-serif;
+}
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:0;
+}
+.text ul {
+     display:inline-block;
+    margin-top: 0px;
+}
+.text li {
+    font-size:50px;
+    list-style-type: none;
+    padding: 20px;
+    border:3px solid black;
+    border-style: dashed;
+    background: 
     
+    
+}
+.text li + li {
+    margin-left:50px;
+    margin-top: 50px;
+    
+}
+
+.photo-content{
+    height: 1000px;
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 140px;
+    text-align: center;
+}
+
+.photo10 {
+    background: transparent url("_MG_7882.jpg") no-repeat center;
+    background-size:cover;
+}
+
+
+
+.photo11 {
+    background: transparent url("https://images.unsplash.com/photo-1458400411386-5ae465c4e57e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=47756f965e991bf72aa756b410929b04") no-repeat center;
+    background-size:cover;
    
 }
-.photo6 {
+.photo12 {
+    background: transparent url("https://images.unsplash.com/photo-1463123081488-789f998ac9c4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=6d1a6d1c5a7eb63d0c411b1d019f0b30") no-repeat center;
+   background-size:cover;
+   
+}
+.photo13 {
+    background: transparent url("https://images.unsplash.com/photo-1462733441571-9312d0b53818?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=deb060f2ba359f2691166b4278ecdc5b") no-repeat center;
+     background-size:cover;
+}
+
+.photo14 {
+    background: transparent url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c2447a69043e39f174216c5440f0fb2d") no-repeat center;
+    background-size:cover;
+    }
+
+.photo15 {
+    background: transparent url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=38b4c37a4aedb70e2817b4f38b9a1984") no-repeat center;
+  background-size:cover;
+}
+
+.photo16 {
+    background: transparent url("_MG_7857.jpg") no-repeat center;
+  background-size:cover;
+}
+.photo17 {
+    background: transparent url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=38b4c37a4aedb70e2817b4f38b9a1984") no-repeat center;
+  background-size:cover;
+}
+
+.photo18 {
     background: transparent url("https://images.unsplash.com/photo-1461360370896-922624d12aa1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=38b4c37a4aedb70e2817b4f38b9a1984") no-repeat center;
   background-size:cover;
 }
